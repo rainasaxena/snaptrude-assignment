@@ -1,0 +1,32 @@
+html,
+body {
+  background: rgb(47 / 255, 79 / 255, 79 / 255);
+}
+
+#myCanvas {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  margin: 12px 8px;
+}
+
+button {
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 2ms;
+  animation: ease-in;
+}
+
+button:hover {
+  background-color: #1e1d1d;
+}
